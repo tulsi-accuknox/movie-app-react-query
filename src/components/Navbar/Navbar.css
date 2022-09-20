@@ -1,0 +1,160 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+    /* border: 2px solid red; */
+    height: 12vh;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+
+.nav_logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.6rem;
+    color: #645CAA;
+}
+
+.nav_searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #645CAA;
+    border-radius: 50px;
+    width:35%;
+    height: 6vh;
+    gap: 0.5rem;
+}
+
+.nav_searchbar input{
+    height:4vh ;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    padding: 0.7rem;
+}
+
+.nav_searchbar img{
+    cursor: pointer;
+}
+
+@media screen and (max-width:350px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 5rem;
+     
+
+    }
+
+    .nav_searchbar{
+
+        width:100%;
+        /* margin-left: 2rem; */
+
+       
+    }
+    nav_searchbar input{
+        height:3vh ;
+        width: 100%;
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+
+    .nav_searchbar{
+    padding: 1rem;
+        width:100%;
+        margin-left: 0.5rem;
+       
+    }
+    nav_searchbar input{
+        height:3vh ;
+        width: 100%;
+        
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width:850px){
+    nav{
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        margin-top: 5rem;
+    }
+
+    .nav_searchbar{
+    padding: 1rem;
+        width:80%;
+        margin-left: 0.5rem;
+       
+    }
+    nav_searchbar input{
+        height:3vh ;
+        width: 100%;
+        
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+}
+
+@media screen and (max-width:1100px){
+    nav{
+        
+        justify-content: center;
+        
+    }
+
+    .nav_searchbar{
+    padding: 1rem;
+        width:50%;
+        margin-left: 0.5rem;
+       
+    }
+}
+
+@media screen and (max-width:1250px){
+    nav{
+        
+        justify-content: space-evenly;
+        
+    }
+
+    .nav_searchbar{
+    padding: 1rem;
+        width:50%;
+        margin-left: 0.5rem;
+       
+    }
+}
+
+@media screen and (max-width:1500px){
+    nav{
+      
+        justify-content: space-evenly;
+        
+    }
+
+    .nav_searchbar{
+    padding: 1rem;
+        width:50%;
+        margin-left: 0.5rem;
+       
+    }
+}
